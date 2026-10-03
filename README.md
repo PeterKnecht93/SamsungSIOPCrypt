@@ -31,6 +31,11 @@ options:
 
 This script requires Python 3 or newer as well as the cryptography library to be installed on your system.
 
+You can install the required library using the following command:
+```console
+$ pip install -r requirements.txt
+```
+
 The required policy name can be obtained from `etc/floating_feature.xml` in your firmware's system or vendor partition.
 
 ## Licensing
